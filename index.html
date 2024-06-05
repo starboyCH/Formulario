@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial scale=1.0>
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form>
+        <fieldset>
+            <legend>Información personal</legend>
+            <div>
+            <input type="text" placeholder="Nombre">
+            </div>
+            <div>
+            <input type="text" placeholder="Apellido">
+            </div>
+            <div class="gender">
+            <div>
+                <label>Género:</label>
+            </div>
+            <div>
+                <select>
+                <option>Hombre</option>
+                <option>Mujer</option>
+            </select>
+            </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Información de contacto</legend>
+            <div>
+             <input type="email" placeholder="Correo">
+             </div>
+             <div>
+             <input type="number" placeholder="Teléfono">
+             </div>
+        </fieldset>
+        <div class="bottom">
+        <div>
+            <label id="18">Soy mayor de 18 años</label>
+            <input type="checkbox">
+        </div> 
+        <div>
+            <label>He leído los términos y condiciones</label>
+            <input type="checkbox">
+       </div>
+       </div>
+        <input type="submit" class="enter" value="Acceder">
+    </form>
+</body>
+</html>
