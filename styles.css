@@ -63,4 +63,8 @@ span{
 h1{
     letter-spacing: 0.8px;
     font-weight: 700;
+    background: linear-gradient(#292929, #1b1b1b);
+    padding-top: 44px;
+    padding-bottom: 7px;
+    margin-top: 0;
 }
