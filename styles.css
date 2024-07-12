@@ -9,6 +9,9 @@ body{
     background: #ffa31a;
     text-align: center;
     color: #1b1b1b;
+    min-width: 5%;
+    padding: 6px 12px;
+    
 }
 form{
     padding: 10px;
@@ -21,8 +24,9 @@ form{
     border-radius: 7px;
 }
 input, select{
+   min-width: 30%;
    margin: 8px;
-   background: #ff9900;
+   background-color: #f90;
    border-radius: 4px;
    color: #1b1b1b;
    padding: 4px;
@@ -44,6 +48,10 @@ fieldset{
     margin-top: 5px;
     text-align: left;
 }
+.checkbox{
+   min-width: 0;
+   margin: 1px;
+   padding: 1px;
 }
 .gender{
     margin-left: 8px;
@@ -52,14 +60,6 @@ fieldset{
 label{
     margin-left: 4px;;
 }
-span{
-    color: #1b1b1b;
-    background: #ff9900;
-    border-radius: 3px;
-    padding: 0 3px;
-    margin: 1%;
-    padding-left: 4px;
-}
 h1{
     letter-spacing: 0.8px;
     font-weight: 700;
@@ -67,4 +67,14 @@ h1{
     padding-top: 44px;
     padding-bottom: 7px;
     margin-top: 0;
+}
+@media(min-width: 1024px){
+   input, select{
+      min-width: 20%;
+   }
+}
+@media(max-width: 370px){
+   .bottom{
+      font-size: 0.8rem;
+   }
 }
